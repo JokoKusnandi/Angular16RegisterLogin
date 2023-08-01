@@ -1,0 +1,173 @@
+.register-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(black, rgb(233, 161, 7));
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px whitesmoke;
+    border-radius: 10px;
+}
+
+.register-box .card h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #8f1c1c;
+    text-align: center;
+}
+
+#profile-img{
+    width: 100px; 
+    height: 100px; 
+    border-color: aqua;
+    border-style: solid;
+    object-position: center right;  
+}
+
+.register-box .card .form-group{
+    position: relative;
+}
+
+.register-box .card .form-group label{
+    position: absolute;
+    float: none;
+    width: auto;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(221, 211, 211);
+    pointer-events: none;
+    transition: .5s;
+    display: inline-block;
+}
+
+.register-box .card .form-group input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #340505;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #750606;
+    outline: none;
+    background: transparent;
+}
+
+.register-box .card .form-group input:focus~label,
+.register-box .card .form-group input:valid~label{
+    top: -60px;
+    left: 0;
+    color: rgb(12, 39, 130);
+    font-size: 12px;
+}
+
+.register-box .card .form-group .btn{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(250, 206, 11);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    object-position: center;
+}
+
+.register-box btn:hover{
+    background: black;
+    color: rgb(250, 206, 11);
+    border-radius: 5px;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px white, 0 0 50px whitesmoke, 0 0 100px white;
+}
+
+.register-box .btn span{
+    position: absolute;
+    display: block;
+}
+
+.register-box .btn span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+    animation: btn-anim1 1s linear infinite;
+    animation-delay: .2s
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 80%;
+    }
+}
+
+.register-box .btn span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, white);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .15s
+}
+
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 80%;
+    }
+}
+
+.register-box .btn span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .2s
+}
+
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 80%;
+    }
+}
+
+.register-box .btn span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, white);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .15s
+}
+
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -1000%;
+    }
+    50%,
+    100% {
+        bottom: 80%;
+    }
+}
