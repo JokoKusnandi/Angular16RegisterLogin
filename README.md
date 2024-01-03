@@ -18,7 +18,12 @@ ng g c board-admin  <br>
 ng g c board-moderator  <br>
 ng g c board-user  <br>
 -------------------------------------------------------- <br>
-
+<br>
+-------------------------------------------------------- <br>
+After the previous process is done, under src folder, let’s create _helpers folder and auth.interceptor.ts file inside. <br>
+-------------------------------------------------------- <br>
+ng serve --port 8090   <br>
+-------------------------------------------------------- <br>
 
 # AngularJwtAuth
 
