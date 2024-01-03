@@ -1,22 +1,22 @@
 ---------------------------------------------------------
-open terminal and create project script below in terminal 
-ng new Angular12JwtAuth
-? Would you like to add Angular routing? Yes
-? Which stylesheet format would you like to use? CSS
---------------------------------------------------------
-Components and Services:
---------------------------------------------------------
-ng g s _services/auth
-ng g s _services/token-storage
-ng g s _services/user
-
-ng g c login
-ng g c register
-ng g c home
-ng g c profile
-ng g c board-admin
-ng g c board-moderator
-ng g c board-user
+# Open terminal and create project script below in terminal <br>
+ng new Angular12JwtAuth <br>
+? Would you like to add Angular routing? Yes <br>
+? Which stylesheet format would you like to use? CSS <br>
+-------------------------------------------------------- <br>
+# Components and Services: <br>
+-------------------------------------------------------- <br>
+ng g s _services/auth  <br>
+ng g s _services/token-storage   <br>
+ng g s _services/user  <br>
+<br>
+ng g c login  <br>
+ng g c register  <br>
+ng g c home  <br>
+ng g c profile  <br>
+ng g c board-admin  <br>
+ng g c board-moderator  <br>
+ng g c board-user  <br>
 --------------------------------------------------------
 
 
