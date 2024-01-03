@@ -17,7 +17,7 @@ ng g c profile  <br>
 ng g c board-admin  <br>
 ng g c board-moderator  <br>
 ng g c board-user  <br>
---------------------------------------------------------
+-------------------------------------------------------- <br>
 
 
 # AngularJwtAuth
