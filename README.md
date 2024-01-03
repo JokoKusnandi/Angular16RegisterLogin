@@ -1,3 +1,25 @@
+---------------------------------------------------------
+open terminal and create project script below in terminal 
+ng new Angular12JwtAuth
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+--------------------------------------------------------
+Components and Services:
+--------------------------------------------------------
+ng g s _services/auth
+ng g s _services/token-storage
+ng g s _services/user
+
+ng g c login
+ng g c register
+ng g c home
+ng g c profile
+ng g c board-admin
+ng g c board-moderator
+ng g c board-user
+--------------------------------------------------------
+
+
 # AngularJwtAuth
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
